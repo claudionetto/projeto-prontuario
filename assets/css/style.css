@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar{
+    display: flex;
+    height: 5rem;
+    min-width: 100vw;
+    background-color: #00A896;
+    align-items: center;
+}
+
+.img-logo{
+    width: 3rem;
+    padding: 0rem 1rem;
+}
+
+
+.navbar h1{
+    font-size: 25px;
+    color: white;
+
+}
+
+.img-paciente{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+    border-radius: 50%;
+}
+
+.infos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+}
+
+.infos p{
+    padding: 10px 10px;
+    font-size: 16px;
+
+}
+
+
+
+
+@media screen and (min-width: 1024px){
+
+    .infos p{
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 1440px){
+
+    .infos p{
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (max-width: 1024px){
+
+    .infos{
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 5%;
+    }
+
+}
+
+
+@media screen and (max-width: 600px){
+
+    .infos{
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: 5%;
+    }
+}
